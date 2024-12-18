@@ -69,7 +69,6 @@ nav ul li:hover{
 
 @media(max-width: 375px){
   .container{
-    height: 500px;
     margin: 0 20px;
     height: 90vh;
   }
