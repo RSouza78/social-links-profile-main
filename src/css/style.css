@@ -1,0 +1,76 @@
+html {
+  font-family: "Inter", serif;
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+  max-width: 1440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: hsl(0, 0%, 12%);
+  width: 380px;
+  height: 600px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.container img {
+  border-radius: 50%;
+  width: 90px;
+  margin: 40px 50px 25px 50px;
+}
+
+.container p {
+  font-size: 14px;
+}
+
+.container .info {
+  gap: 50px;
+}
+
+.container .info .name {
+  font-size: 25px;
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+}
+
+.container .info .location {
+  font-weight: 600;
+  color: hsl(75, 94%, 57%);
+  margin: 10px;
+}
+
+.container .info .job {
+  color: hsl(0, 0%, 100%);
+  padding: 15px;
+}
+
+nav ul li {
+  background-color: hsl(0, 0%, 20%);
+  margin: 15px 40px;
+  padding: 12px;
+  border-radius: 7px;
+}
+
+nav ul li a {
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+}
+
+nav ul li:hover{
+  background-color: hsl(75, 94%, 57%);
+  cursor: pointer; 
+}
+
+@media(max-width: 375px){
+  .container{
+    height: 500px;
+    margin: 0 20px;
+    height: 90vh;
+  }
+}
